@@ -55,9 +55,6 @@ void getLeadingCandidate(){
     printf("[%s]",CANDIDATE4);
     else
     printf("----- Warning !!! No-win situation----");    
-    
-    
-    
 }
 
 int main()
@@ -84,7 +81,6 @@ default: printf("\n Error: Invalid Choice");
 }
 }while(choice!=0);
 
-//hold the screen
 getchar();
 
 return 0;
